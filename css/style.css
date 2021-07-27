@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+
+/*~~~~~~~~~~~~~~~ for all ~~~~~~~~~~~~~~~*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  display: block;
+  line-height: 1.5;
+  height: 100%;
+  background: #f8f9fa;
+  color: #000000;
+  font-family: メイリオ, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+body {
+  display: block;
+  height: 100%;
+}
+
+h1 {
+  padding-bottom: 0.5rem;
+  color: #34495e;
+  margin: auto;
+  max-width: 740px;
+  margin-bottom: 4rem;
+  border-bottom: solid 1px #34495e;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  color: #34495e;
+  font-size: 20px;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  color: #34495e;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.space1 {
+  margin-bottom: 3.5rem;
+}
+
+.space2 {
+  margin-bottom: 2rem;
+}
+
+.nospace {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+article {
+  width: 100%;
+}
+
+.sr-only {
+  visibility: hidden;
+}
+
+
+/*---------- header ----------*/
+header {
+  position: fixed;
+  z-index: 3;
+  top: 0%;
+  width: 100%;
+  padding-top: 0.8rem;
+  background: #222222;
+  box-shadow: 0 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+}
+
+header * {
+  text-decoration: none;
+}
+
+#title {
+  line-height: 1.0;
+  width: 70%;
+  margin: 0 auto 4px auto;
+  font-size: 30px;
+}
+
+#title:after {
+  display: block;
+  height: 3px;
+  background: linear-gradient(to left, #222222 0% , #cc0000 50%, #222222 100%);
+  content: "";
+}
+
+#title a {
+  color: #ffffff;
+}
+
+#reactZone {
+  line-height: normal;
+}
+
+#reactZone:hover ul#menubar li {
+  height: 2.5rem;
+}
+
+#reactZone:hover #menuToggle > * {
+  transform: rotate(180deg);
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul#menubar {
+  margin: 0 1.8rem;
+}
+
+nav ul#menubar li {
+  float: left;
+  width: 25%;
+  height: 0;
+  overflow: hidden;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  transition: 250ms;
+}
+
+nav ul#menubar li a {
+  display: block;
+  margin-left: 0.1rem;
+  padding: 0.25rem;
+  border-bottom: solid 2px #444444;
+  color: #bbbbbb;
+  transition: 300ms;
+}
+
+nav ul#menubar li a:hover {
+  border-bottom-color: #008800;
+  color: #f5f5f5;
+}
+
+#menuToggle {
+  clear: both;
+}
+
+#menuToggle > * {
+  color: #dd6600;
+  transition: 300ms;
+}
+
+#menuToggle:before {
+  display: block;
+  height: 1px;
+  background: linear-gradient(to left, #222222 0% , #555555 50%, #222222 100%);
+  content: "";
+  
+}
+
+
+/*---------- footer ----------*/
+footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  line-height: 1.0;
+  width: 100%;
+  padding: 0.75rem 0;
+  background: #222222;
+  color: #ffffff;
+  font-size: 0.75rem;
+  box-shadow: 0 -0.25rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/*---------- main ----------*/
+#mainBox {
+  display: table;
+  z-index: 1;
+  width: 70%;
+  height: 100%;
+  padding: 0 15%;
+}
+
+#mainBox #contents {
+  display: table-cell;
+  padding: 153px 0 154px 0;
+  vertical-align: middle;
+}
+
+#mainBox #contents a {
+  color: #03a678;
+}
+
+#mainBox #contents a:hover {
+  color: #03c9a9;
+}
+
+
+/*~~~~~~~~~~~~~~~ for index.html ~~~~~~~~~~~~~~~*/
+#homeMenu {
+  display: flex;
+  justify-content: center;
+}
+
+#homeMenu ul {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+  color: #34495e;
+  text-align: left;
+}
+
+#homeMenu li {
+  margin: 0.5rem 0;
+}
+
+#mainBox #contents #homeMenu a {
+  color: rgba(52, 73, 94, 0.6);
+  text-decoration: none;
+  transition: 250ms;
+}
+
+#mainBox #contents #homeMenu a:hover {
+  color: #34495e;
+}
+
+#mainBox #contents #homeMenu a > span.fa-li::after {
+  position: absolute;
+  left: -3px;
+  height: 100%;
+  width: 3px;
+  transition: 250ms;
+  content: "";
+}
+
+#mainBox #contents #homeMenu a:hover > span.fa-li::after {
+  background: #03a678;
+}
+
+/*~~~~~~~~~~~~~~~ for music.html, programs.html ~~~~~~~~~~~~~~~*/
+#contents > article:not(:last-child) {
+  margin-bottom: 3.5rem;
+}
+
+table {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 0.4rem;
+  box-shadow: 0.25rem 0.25rem 0.125rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+thead tr {
+  background: #34495e;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 0.8rem 1rem;
+}
+
+tr > *:first-child {
+  padding-left: 2rem;
+}
+
+tr > *:last-child {
+  padding-right: 2rem;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f2f8ff;
+}
+
+tbody tr:nth-child(even) {
+  background: #e9f1f8;
+}
+
+.description {
+  text-align: left;
+}
+
+/*~~~~~~~~~~~~~~~ for programs.html ~~~~~~~~~~~~~~~*/
+.programTable thead {
+  color: #ffffff;
+}
+
+#mainBox #contents .programTable thead a {
+  color: #ffffff;
+}
+
+#mainBox #contents .programTable thead a:hover {
+  color: #ebebf0;
+}

@@ -1,0 +1,424 @@
+#Filename	SILICON.M2
+#Title		Silicon Republic
+#Composer	R.K.R.
+#Option		/v/c
+#Tempo		120
+#Zenlen		192
+
+
+;[Voices]======================================================================
+;(OPNA)------------------------------------------------------------------------
+; NO,AL,FB
+@  0, 4, 6	;バスドラム5-1
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31,24,31, 0, 4,12, 0, 6, 0, 0
+  31,10,15, 9, 9, 2, 0, 8, 0, 0
+  31,24, 8, 8, 8,12, 0, 4, 0, 0
+  31, 8, 6, 8, 7, 0, 0, 8, 0, 0
+
+; NO,AL,FB
+@  1, 3, 7	;シンセベース7-1(中チューブ)'
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  23,12, 0, 7, 8,28, 0, 2, 0, 0
+  31,16, 0, 7, 8,32, 0, 0, 0, 0
+  31, 7, 0, 7, 5,21, 0, 0, 0, 0
+  31, 4, 0, 7, 4, 0, 0, 0, 0, 0
+
+; NO,AL,FB
+@  2, 2, 7	;シンセ10(メタルモジュレーション長)
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  26, 8, 8, 4, 4,26, 0, 1, 0, 0
+  28, 8, 8, 5, 4, 3, 0, 2, 0, 0
+  31,28, 4, 7, 7,29, 0, 6, 0, 0
+  27, 6, 2, 6, 5, 0, 0, 1, 0, 0
+
+; NO,AL,FB
+@  3, 4, 7	;オープンハイハット1-1'
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 0, 0, 0, 0, 7, 0, 8, 3, 0
+  31,14, 0, 7, 6, 0, 0,11, 0, 0
+  31, 0, 0, 0, 0,13, 0, 0, 0, 0
+  31,14, 0, 6,12,20, 0,10, 0, 0
+
+; NO,AL,FB
+@  4, 4, 7	;クローズハイハット5'
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 0, 0, 0, 0, 7, 0, 2, 3, 0
+  31,19, 0,10, 9, 0, 0, 8, 0, 0
+  31, 0, 0, 0, 0,13, 0, 0, 0, 0
+  31,17, 0,10,12,16, 0,12, 0, 0
+
+; NO,AL,FB
+@  5, 4, 7	;スネア1-3
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 8,31, 0,13, 0, 0, 4, 0, 0
+  31,14,15, 9,14, 1, 0, 6, 0, 0
+  31,20, 8, 8, 8, 5, 0, 1, 0, 0
+  31,12, 6, 9, 8, 0, 0, 0, 0, 0
+
+; NO,AL,FB
+@  6, 2, 5	;DiscStation風のギター1-1
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 9, 0, 7, 5,12, 0, 1, 0, 0
+  31, 6, 0, 7,15,24, 0, 2, 4, 0
+  31,10, 0, 7, 8,34, 0, 8, 3, 0
+  18, 3, 0, 9, 3, 5, 0, 2, 0, 0
+
+; NO,AL,FB
+@  7, 4, 5	;シンセピアノ5(2-ソフト)'
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 4, 0, 0, 5,21, 0, 1, 0, 0
+  31,13, 0, 9, 7, 0, 0, 1, 0, 0
+  31,15, 0, 8, 5,37, 3, 8, 0, 0
+  31,14, 0, 7, 5, 9, 0, 2, 0, 0
+
+; NO,AL,FB
+@  8, 2, 5	;DiscStation風のギター1-1'
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 9, 0, 7, 8,12, 0, 1, 0, 0
+  31, 6, 0, 7,15,24, 0, 2, 4, 0
+  31,10, 0, 7, 8,34, 0, 8, 3, 0
+  12, 4, 0, 9, 6, 5, 0, 2, 0, 0
+
+; NO,AL,FB
+@  9, 1, 6	;バスドラム7-1
+; AR,DR,SR,RR,SL,TL,KS,ML,DT,AM
+  31, 8,31, 6, 4,10, 0, 0, 0, 0
+  31,14,15, 5, 9,44, 0, 6, 0, 0
+  31,22, 8, 2,12,28, 0, 0, 0, 0
+  31,10, 6, 6, 4, 0, 0, 0, 0, 0
+
+
+;(Percs)-----------------------------------------------------------------------
+!OB  @0 v13 p3 MPA-40 *A1 o2_-7
+!OK  @9 v15 p3 MPA-60 *A1 o4_+7
+!OS  @5 v13 p3 MPA-20 *A1 o4_0
+!OC  @3 v11 p3        *A0 o7_+4
+!OH  @4 v11 p3	      *A0 o7_-2
+
+
+;[Notes]=======================================================================
+;(Intro)-----------------------------------------------------------------------
+A	l16 [[!OH((c]2!OC(cr]32 [[!OHc]2!OCcr]16 [[!OHc]2!OCcr !OKc!OHc!OCcr]8
+
+B	[r1]8
+B	@1 v11 l1 q4 o4 [c+<g+bf+]2
+
+CDEF	@8 v0 ( l1 q2 MB60,1,2,5 *B1 |C p1 |DF p3 |E p2
+C	o5 [c+)<g+)b)f+)]2 > [c+<g+bf+]2
+D	o5 [f)c)e-)<b-) ]2 > [fce-<b- ]2
+E	o5 [g+)e-)f+)c+)]2   [g+e-f+c+]2
+F	o6 [c)<g)b-)f)  ]2 > [c<gb-f  ]2
+
+GHI	[r1]16
+
+
+;(In)--------------------------------------------------------------------------
+;<4/4>
+A	!OB)cr8.[!OB)c32]8
+
+BCDEFGI	r2
+
+H	@0 P3 w18 v12 q0 o7 c4r4
+
+
+;(A1)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2:!OCc]4 !OSc
+
+B	l16 > [_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+CDE	@2 v13 l16 Q6 *B0
+C	o4 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	o4 [rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	o5 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	@7 v11 l16 Q2 *B0
+F	o5 [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4r2. [r1]7
+HI	[r1]8
+
+
+;(A2)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr  !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  :!OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2!OCc]4
+A	!OBc[!OHc32]2[!OBc32]2!OBc!OCc!OSc!OBc[!OSc32]2!OCc
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	<< [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	g4
+GHI	@5 v13 l16 q3 |G *B0 |H P1 DD-2 |I ( r
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(A1)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2:!OCc]4 !OSc
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	<< [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4r2. [r1]7
+HI	[r1]8
+
+
+;(A3)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	:!OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2!OCc]4
+A	!OBc!OHc!OSc32!OSc.!OSc!OHc!OBc!OSc !OHc[!OBc32]2!OSc!OBc[!OSc32]2[!OBc]2[!OSc32]2
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	[
+F	 @6 Q8 v11 o7 p1 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p2 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	 @6 Q8 v11 o7 p2 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p1 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	]2
+
+G	g4
+GHI	@5 v13 l16 q3 |G *B0 |I (
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(B)---------------------------------------------------------------------------
+A	[!OBc!OHc!OCc8]31 !OBc!OSc!OSc!OS((c
+A	[!OBc[!OHc!OCc8:!OSc]2]15 !OBc!OHc!OCc8!OSc!OSc!OSc!OS((c
+
+B	_0 l8 [c+4c+.c+c+16c+.c+c+16 <g+4g+.g+g+16g+.g+g+16 b4b.bb16b.bb16 f+4f+.f+f+16f+.f+f+16]4
+
+CDEF	v13 |F @2 Q6 p3
+C	>  [ rc+8.c+8c+[c+8]3c+c+[c+%3r32-%3]2 <rg+8.g+8g+[g+8]3g+g+[g+%3r32-%3]2
+D	   [ rf8.f8f[f8]3ff[f%3r32-%3]2	        rc8.c8c[c8]3cc[c%3r32-%3]2
+E	   [ rg+8.g+8g+[g+8]3g+g+[g+%3r32-%3]2  re-8.e-8e-[e-8]3e-e-[e-%3r32-%3]2
+F	o6 [ rc8.c8c[c8]3cc[c%3r32-%3]2 	<rg8.g8g[g8]3gg[g%3r32-%3]2
+C	rb8.b8b[b8]3bb[b%3r32-%3]2        rf+8.f+8f+[f+8]3f+f+[f+%3r32-%3]2  ]4
+D	re-8.e-8e-[e-8]3e-e-[e-%3r32-%3]2 <rb-8.b-8b-[b-8]3b-b-[b-%3r32-%3]2 ]4
+E	rf+8.f+8f+[f+8]3f+f+[f+%3r32-%3]2 rc+8.c+8c+[c+8]3c+c+[c+%3r32-%3]2  ]4
+F	rb-8.b-8b-[b-8]3b-b-[b-%3r32-%3]2 rf8.f8f[f8]3ff[f%3r32-%3]2	     ]4
+
+GHI	v12 l64 @13
+GHI	[
+GHI	 {<b->c+}&c+16-{c+f}&f16-{fg+}&g+16-{g+>c}&c16-{cc+}&c+16-{c+f}&f16-{fg+}&g+16-{g+>c}&c16-
+GHI	 {cc+}&c+16-{c+c}&c16-{c<g+}&g+16-{g+f}&f16-{fc+}&c+16-{c+c}&c16-{c<g+}&g+16-{g+f}&f16-
+GHI	 {f<g+}&g+16-{g+>c}&c16-{ce-}&e-16-{e-g}&g16-{gg+}&g+16-{g+>c}&c16-{ce-}&e-16-{e-g}&g16-
+GHI	 {gg+}&g+16-{g+g}&g16-{ge-}&e-16-{e-c}&c16-{c<g+}&g+16-{g+g}&g16-{ge-}&e-16-{e-c}&c16-
+GHI	 {c<b}&b16-{b>e-}&e-16-{e-f+}&f+16-{f+b-}&b-16-{b-b}&b16-{b>e-}&e-16-{e-f+}&f+16-{f+b-}&b-16-
+GHI	 {b-b}&b16-{b-b}&b-16-{b-f+}&f+16-{f+e-}&e-16-{e-<b}&b16-{bb-}&b-16-{b-f+}&f+16-{f+e-}&e-16-
+GHI	 {e-<f+}&f+16-{f+b-}&b-16-{b->c+}&c+16-{c+f}&f16-{ff+}&f+16-{f+b-}&b-16-{b->c+}&c+16-{c+f}&f16-
+GHI	 {ff+}&f+16-{f+f}&f16-{fc+}&c+16-{c+<b-}&b-16-{b-f+}&f+16-{f+f}&f16-{fc+}&c+16-{c+<b-}&b-16-
+GHI	]4
+
+
+;(In)--------------------------------------------------------------------------
+A	!OB)cr8.[!OB)c32]8
+
+BCDEFGI	r2
+
+H	@0 P3 w18 v12 q0 DD2 o7 c4r4
+
+
+;(A1)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc:[!OHc]2!OCc]4[!OBc]3
+
+B	l16 >[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	[rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	[re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	@7 v11 l16 Q2
+F	o5 [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4r2. [r1]7
+HI	[r1]8
+
+
+;(A2)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr  !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  :!OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2!OCc]4
+A	!OBc[!OHc32]2[!OBc32]2!OBc!OCc!OSc!OBc[!OSc32]2!OCc
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	<< [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	g4
+GHI	@5 v13 l16 q3 |G *B0 |H P1 DD-2 |I (
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(A1)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2:!OCc]4 !OSc
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	<< [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4r2. [r1]7
+HI	[r1]8
+
+
+;(A3)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	:!OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2!OCc]4
+A	!OBc!OHc!OSc32!OSc.!OSc!OHc!OBc!OSc !OHc[!OBc32]2!OSc!OBc[!OSc32]2[!OBc]2[!OSc32]2
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	[
+F	 @6 Q8 v11 o7 p1 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p2 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	 @6 Q8 v11 o7 p2 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p1 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	]2
+
+G	g4
+GHI	@5 v13 l16 q3 |G *B0 |I (
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(B)---------------------------------------------------------------------------
+A	[!OBc!OHc!OCc8]31 !OBc!OSc!OSc!OS((c
+A	[!OBc[!OHc!OCc8:!OSc]2]15 !OBc!OHc!OCc8!OSc!OSc!OSc!OS((c
+
+B	_0 l8 [c+4c+.c+c+16c+.c+c+16 <g+4g+.g+g+16g+.g+g+16 b4b.bb16b.bb16 f+4f+.f+f+16f+.f+f+16]4
+
+CDEF	v13 |F @2 Q6 p3
+C	>  [ rc+8.c+8c+[c+8]3c+c+[c+%3r32-%3]2 <rg+8.g+8g+[g+8]3g+g+[g+%3r32-%3]2
+D	   [ rf8.f8f[f8]3ff[f%3r32-%3]2	        rc8.c8c[c8]3cc[c%3r32-%3]2
+E	   [ rg+8.g+8g+[g+8]3g+g+[g+%3r32-%3]2  re-8.e-8e-[e-8]3e-e-[e-%3r32-%3]2
+F	o6 [ rc8.c8c[c8]3cc[c%3r32-%3]2 	<rg8.g8g[g8]3gg[g%3r32-%3]2
+C	rb8.b8b[b8]3bb[b%3r32-%3]2        rf+8.f+8f+[f+8]3f+f+[f+%3r32-%3]2  ]4
+D	re-8.e-8e-[e-8]3e-e-[e-%3r32-%3]2 <rb-8.b-8b-[b-8]3b-b-[b-%3r32-%3]2 ]4
+E	rf+8.f+8f+[f+8]3f+f+[f+%3r32-%3]2 rc+8.c+8c+[c+8]3c+c+[c+%3r32-%3]2  ]4
+F	rb-8.b-8b-[b-8]3b-b-[b-%3r32-%3]2 rf8.f8f[f8]3ff[f%3r32-%3]2	     ]4
+
+GHI	v12 l64 @13
+GHI	[
+GHI	 {<b->c+}&c+16-{c+f}&f16-{fg+}&g+16-{g+>c}&c16-{cc+}&c+16-{c+f}&f16-{fg+}&g+16-{g+>c}&c16-
+GHI	 {cc+}&c+16-{c+c}&c16-{c<g+}&g+16-{g+f}&f16-{fc+}&c+16-{c+c}&c16-{c<g+}&g+16-{g+f}&f16-
+GHI	 {f<g+}&g+16-{g+>c}&c16-{ce-}&e-16-{e-g}&g16-{gg+}&g+16-{g+>c}&c16-{ce-}&e-16-{e-g}&g16-
+GHI	 {gg+}&g+16-{g+g}&g16-{ge-}&e-16-{e-c}&c16-{c<g+}&g+16-{g+g}&g16-{ge-}&e-16-{e-c}&c16-
+GHI	 {c<b}&b16-{b>e-}&e-16-{e-f+}&f+16-{f+b-}&b-16-{b-b}&b16-{b>e-}&e-16-{e-f+}&f+16-{f+b-}&b-16-
+GHI	 {b-b}&b16-{b-b}&b-16-{b-f+}&f+16-{f+e-}&e-16-{e-<b}&b16-{bb-}&b-16-{b-f+}&f+16-{f+e-}&e-16-
+GHI	 {e-<f+}&f+16-{f+b-}&b-16-{b->c+}&c+16-{c+f}&f16-{ff+}&f+16-{f+b-}&b-16-{b->c+}&c+16-{c+f}&f16-
+GHI	 {ff+}&f+16-{f+f}&f16-{fc+}&c+16-{c+<b-}&b-16-{b-f+}&f+16-{f+f}&f16-{fc+}&c+16-{c+<b-}&b-16-
+GHI	]4
+
+
+;(In)--------------------------------------------------------------------------
+A	!OB)cr8.[!OB)c32]8
+
+BCDEFGI	r2
+
+H	@0 P3 w18 v12 q0 DD2 o7 c4r4
+
+
+;(A4)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  !OBc[!OHc32]2!OBc!OBc!OCc!OSc:[!OHc]2!OCc]4[!OBc]3
+
+B	l16 >[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	[rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	[re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	@7 v11 l16 Q2
+F	o5 [(p1cr)p2crp1>cp3<cr8(p2cr)p1cp2>c(p1<cp2>>c(p1<cp2>c r4)2<cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c )2]4
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4
+GHI	@5 v13 l16 q3 |G *B0 |H P1 DD-2 |I (
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(A5)--------------------------------------------------------------------------
+A	[!OBc!OHc!OCcr!OSc!OHc!OCcr  !OBc!OBc!OCcr!OSc!OHc!OCcr
+A	 !OBc!OHc!OCcr!OSc!OHc!OCc  :!OBc[!OHc32]2!OBc!OBc!OCc!OSc[!OHc]2!OCc]4
+A	!OBc[!OHc32]2[!OBc32]2!OBc!OCc!OSc!OBc[!OSc32]2!OCc
+
+B	[_0[c8.c8.cc8c8c8.cc:_-4]2]4
+
+C	 [rg8ra8r8g8g%2r-%2a8ag+g+     rf8rg8rf%1r-%1g+8f%2r-%2g+8g+b-b-]4
+D	<[rb-8r>c8r8<b-8b-%2r-%2>c8ccc r<g+8rb-8rg+%1r-%1>c8<g+%2r-%2>c8cdd]4
+E	 [re-8rf8r8e-8e-%2r-%2f8fe-e-  r{c-c}&crd8rc%1r-%1e-8c%2r-%2e-8e-ff]4
+
+F	[
+F	 @6 Q8 v11 o7 p1 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p2 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	 @6 Q8 v11 o7 p2 [{<b->c}&c8(]2 p3 [{<b->c}&c8(]2 p1 [{<b->c}&c8(]2
+F	 @7 Q2 v11 o6 r8 p2cp1<c(p2>cp1<c(p2>cp1<c)2>cp2>c(p1<cp2>c(p1<cp2>c
+F	]2
+
+G	@0 v12 q0 MPB-20 *B1 o7 g4
+GHI	@5 v13 l16 q3 |G *B0 |I (
+G	o4 gc [g>c:g>c<gc]21
+HI	o4 [g>c:g>c<gc]22
+
+
+;(C)---------------------------------------------------------------------------
+A	[!OBc!OHc!OCc8]32 [!OBc!OHc]32 [!OBc]48 [!OBc32]32
+
+B	_0 <
+B	[
+B	 l2  [e-b->c+<g+]2
+B	 l16 [e-8.e-8e-ae- b-b-rb-8.b-8 >c+c+8c+8<c+>c+<c+ g+r>g+<g+rg+8g+]2
+B	]2
+
+CDEF	@2 v13 l2 Q7 |F p3
+C	   [gdfc]8
+D	<  [b-fg+e-]8
+E	   [d<a>c<g]8
+F	o5 [aegd]8
+
+GHI	@5 l64
+GHI	o5 [
+GHI	    r16{d<g}&g16-{g>d}&d16-{d<g}&g16- r16{g>d}&d16-{dg}&g16-{gd}&d16-
+GHI	    r16{da}&a16-{a>d}&d16-{d<a}&a16- r16{a>d}&d16-{da}&a16-{ad}&d16-
+GHI	    r16{cg+}&g+16-{g+>c}&c16-{c<g+}&g+16- r16{g+c+}&c+16-{c+g+}&g+16-{g+c+}&c+16-
+GHI	    r16{c<g+}&g+16-{g+>c}&c16-{c<g+}&g+16- r16{g+e-}&e-16-{e-g+}&g+16-{g+e-}&e-16-
+GHI	   ]8
+
+
+;(Out)--------------------------------------------------------------------------
+A	!OB)cr8.
+
+BCDEFGI	r4 |I -16
+
+H	@0 P3 w18 v12 q0 o7 c4
