@@ -1,20 +1,27 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+# dependencies
+/node_modules
 
-# Local History for Visual Studio Code
-.history/
+# next.js
+/.next/
+/out/
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-.ionide
+# production
+/build
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
