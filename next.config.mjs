@@ -10,8 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.config.BASE_PATH || '',
-  assetPrefix: process.config.BASE_PATH || '',
 };
 
 export default nextConfig;

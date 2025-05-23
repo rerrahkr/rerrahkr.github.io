@@ -20,6 +20,9 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Platform } from "./types";
 import { apps } from "./contents";
+import nextConfig from "@/next.config.mjs";
+
+const BASE_PATH = nextConfig.basePath || "";
 
 // Platform icon component
 function PlatformIcon({ platform }: { platform: Platform }) {
@@ -82,17 +85,15 @@ export default function AppsPage() {
               <p className="text-sm text-muted-foreground mb-4">
                 {app.description}
               </p>
-              {app.imageUrl && (
-                <div className="relative h-40 w-full overflow-hidden rounded-md border border-primary/20">
-                  <Image
-                    src={app.imageUrl}
-                    alt={`${app.name} screenshot`}
-                    fill
-                    className="object-cover"
-                    priority={app.isLcpImage ?? false}
-                  />
-                </div>
-              )}
+              <div className="relative h-40 w-full overflow-hidden rounded-md border border-primary/20">
+                <Image
+                  src={`${BASE_PATH}${app.imageUrl}`}
+                  alt={`${app.name} screenshot`}
+                  fill
+                  className="object-cover"
+                  priority={app.isLcpImage ?? false}
+                />
+              </div>
             </CardContent>
             <CardFooter>
               {app.urlType === "download" ? (

@@ -20,7 +20,7 @@ export default function RootLayout({
       <Head>
         <title>Rerrah</title>
         <meta name="description" content="My personal website." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${BASE_PATH}/favicon.ico`} />
 
         {/* OGP */}
         <meta property="og:title" content="Rerrah" />

@@ -9,12 +9,18 @@ import {
   TooltipTrigger,
   TooltipContent,
 } from "@/components/ui/tooltip";
+import nextConfig from "@/next.config.mjs";
+
+const BASE_PATH = nextConfig.basePath || "";
 
 export default function Home() {
   return (
     <div className="container max-w-4xl py-12 flex flex-col items-center px-4 md:px-6 w-full">
       <Avatar className="h-32 w-32 mb-6 border-4 border-primary">
-        <AvatarImage src="/img/avatar.png?height=128&width=128" alt="Avatar" />
+        <AvatarImage
+          src={`${BASE_PATH}/img/avatar.png?height=128&width=128`}
+          alt="Avatar"
+        />
         <AvatarFallback>Rerrah</AvatarFallback>
       </Avatar>
 
