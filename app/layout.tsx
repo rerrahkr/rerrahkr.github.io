@@ -4,6 +4,9 @@ import Head from "next/head";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
+import nextConfig from "@/next.config.mjs";
+
+const BASE_PATH = nextConfig.basePath || "";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +26,8 @@ export default function RootLayout({
         <meta property="og:title" content="Rerrah" />
         <meta property="og:description" content="My personal website." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rerrahkr.github.io" />
-        <meta property="og:image" content="https://rerrahkr.github.io/img/avatar.png" />
+        <meta property="og:url" content={BASE_PATH} />
+        <meta property="og:image" content={`${BASE_PATH}/img/avatar.png`} />
         <meta property="og:site_name" content="Rerrah" />
 
         {/* Twitter Card */}
