@@ -1,9 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { FaRegFile, FaRegFileZipper, FaSoundcloud } from "react-icons/fa6";
+import type { Metadata } from "next";
 import Link from "next/link";
 import type React from "react";
 import type { LinkIconType } from "./types";
 import { categories } from "./contents";
+
+export const metadata: Metadata = {
+  title: "Music",
+  openGraph: {
+    title: "Music - rerrahkr.github.io",
+    url: "https://rerrahkr.github.io/music",
+    type: "website",
+    images: "/img/avatar.png",
+    siteName: "rerrahkr.github.io",
+  },
+};
 
 function LinkIcon({ iconType }: { iconType: LinkIconType }): React.JSX.Element {
   switch (iconType) {

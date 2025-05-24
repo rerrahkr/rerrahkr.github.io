@@ -16,6 +16,7 @@ import {
   FaArrowUpRightFromSquare,
   FaGlobe,
 } from "react-icons/fa6";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import type { Platform } from "./types";
@@ -23,6 +24,17 @@ import { apps } from "./contents";
 import nextConfig from "@/next.config.mjs";
 
 const BASE_PATH = nextConfig.basePath || "";
+
+export const metadata: Metadata = {
+  title: "Apps",
+  openGraph: {
+    title: "Apps - rerrahkr.github.io",
+    url: "https://rerrahkr.github.io/apps",
+    type: "website",
+    images: "/img/avatar.png",
+    siteName: "rerrahkr.github.io",
+  },
+};
 
 // Platform icon component
 function PlatformIcon({ platform }: { platform: Platform }) {

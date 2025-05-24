@@ -1,3 +1,5 @@
+import nextConfig from "@/next.config.mjs";
+
 type Tool =
   | "BambooTracker"
   | "PMD"

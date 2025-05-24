@@ -2,6 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { FaXTwitter, FaSoundcloud, FaGithub, FaRss } from "react-icons/fa6";
 import { SiZenn } from "react-icons/si";
+import type { Metadata } from "next";
 import Link from "next/link";
 import {
   TooltipProvider,
@@ -12,6 +13,16 @@ import {
 import nextConfig from "@/next.config.mjs";
 
 const BASE_PATH = nextConfig.basePath || "";
+
+export const metadata: Metadata = {
+  openGraph: {
+    title: "rerrahkr.github.io",
+    url: "https://rerrahkr.github.io",
+    type: "website",
+    images: "/img/avatar.png",
+    siteName: "rerrahkr.github.io",
+  },
+};
 
 export default function Home() {
   return (
