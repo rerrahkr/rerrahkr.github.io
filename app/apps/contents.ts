@@ -12,6 +12,16 @@ export const apps: App[] = [
     imageUrl: "/img/bambootracker.png?height=200&width=400",
     isLcpImage: true,
   },
+    {
+    name: "OPNShare",
+    description:
+      "Post and share instruments for OPN-series FM sound chip.",
+    platform: ["web"],
+    urlType: "web",
+    url: "https://opnshare.vercel.app",
+    imageUrl: "/img/opnshare.png?height=200&width=400",
+    isLcpImage: true,
+  },
   {
     name: "YM2608 Tone Editor",
     description:
